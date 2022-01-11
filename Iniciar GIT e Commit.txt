@@ -1,0 +1,15 @@
+INICIANDO O GIT E CRIANDO O COMMIT
+
+Dentro da pasta onde ficará o repositório faça:
+
+$ git init
+$ git config --global user.email "digite o email"
+$ git config --global user.name "digite o name do seu login no github"
+
+Crie o arquivo README.md na pasta
+
+
+$ git add * (adiona todos os arquivos da pasta)
+$ git commit -m "Mensagem desejada" (nome do commit)
+
+Será criado o root-commit com os arquivos anexados.

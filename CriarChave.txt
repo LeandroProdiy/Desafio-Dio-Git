@@ -1,0 +1,34 @@
+
+CRIAÇÃO DE CHAVE PARA AUTENTICAR SEU COMPUTADOR NO GITHUB
+	
+01 GERAR PAR DE CHAVES NO GIT BASH
+
+$ ssh-Keygen -t ed25519 -C User.Email //enter
+
+//mostrará o local onde a chave será guardada
+//enter
+//Preciará criar uma senha
+
+As chaves foram criadas na pasta .ssh
+
+02 VISUALIZAR A CHAVES
+
+$ cat id_ed25519.pub
+
+//mostrará a chave a ser copiada e utilizada para adicionar nas SSH Keys do Github
+
+APOS CADASTRAR NO SITE FAÇA NO GIT BASH
+
+$ eval $(ssh-agent -s)
+
+//mostrará o numero pid
+
+ENTREGAR A CHAVE PARA O AGENT
+
+$ ssh-add id_ed25519 //enter mostrará a identificação com seu email.
+
+
+
+
+
+	

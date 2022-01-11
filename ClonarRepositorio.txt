@@ -1,0 +1,11 @@
+CLONAR UM REPOSITÓRIO DO GITHUB USANDO O GIT BASH
+
+01 No github copiar o chave SSH ou HTML do repositório desejado: (Botão Code)
+
+02 No git bash entre na pasta onde será guardado o repositório e execute o comando:
+
+$ git clone (cola a chave)//enter
+Yes //enter
+
+
+Pronto clonado!!!!
